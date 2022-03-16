@@ -1,12 +1,16 @@
 .index {
   @apply relative flex justify-center;
 
+  & .cover {
+    @apply absolute w-screen h-screen;
+  }
+
   & .bg {
     @apply h-full;
   }
 
   & .logo {
-    @apply absolute cursor-pointer flex justify-center items-center;
+    @apply absolute cursor-pointer flex justify-center items-center z-10;
     width: 2.25%;
 
     &:hover {
@@ -264,7 +268,7 @@
 }
 
 .logo_show {
-  @apply fixed bg-white bg-opacity-30 w-full h-full flex items-center justify-center;
+  @apply fixed bg-white bg-opacity-30 w-full h-full flex items-center justify-center z-10;
   @apply opacity-0 hidden;
   @apply transition-all duration-300;
   & .item {
