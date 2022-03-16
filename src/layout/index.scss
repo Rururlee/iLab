@@ -47,8 +47,8 @@
   & .logo_2 {
     top: 27.9%;
     left: 21.15%;
-    -webkit-animation: up-down2 3s linear infinite;
-    animation: up-down2 3s linear infinite;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
 
     & span {
       width: 75px;
@@ -58,31 +58,43 @@
   & .logo_3 {
     top: 22%;
     left: 26.95%;
+    -webkit-animation: up-down 3s 0.6s linear infinite;
+    animation: up-down 3s 0.6s linear infinite;
   }
 
   & .logo_4 {
     top: 33.3%;
     left: 26.1%;
+    -webkit-animation: up-down 3s 0.4s linear infinite;
+    animation: up-down 3s 0.4s linear infinite;
   }
 
   & .logo_5 {
     top: 74%;
     left: 25.1%;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
   }
 
   & .logo_6 {
     top: 69.8%;
     left: 29.15%;
+    -webkit-animation: up-down 3s 0.5s linear infinite;
+    animation: up-down 3s 0.5s linear infinite;
   }
 
   & .logo_7 {
     top: 73.8%;
     left: 32.8%;
+    -webkit-animation: up-down 3s 0.5s linear infinite;
+    animation: up-down 3s 0.5s linear infinite;
   }
 
   & .logo_8 {
     top: 21.4%;
     left: 36.9%;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
 
     & span {
       width: 105px;
@@ -92,6 +104,8 @@
   & .logo_9 {
     top: 32%;
     left: 37%;
+    -webkit-animation: up-down 3s 0.5s linear infinite;
+    animation: up-down 3s 0.5s linear infinite;
 
     & span {
       width: 105px;
@@ -101,6 +115,8 @@
   & .logo_10 {
     top: 79.2%;
     left: 38.4%;
+    -webkit-animation: up-down 3s 0.4s linear infinite;
+    animation: up-down 3s 0.4s linear infinite;
 
     & span {
       width: 85px;
@@ -110,11 +126,15 @@
   & .logo_11 {
     top: 62.4%;
     left: 40.2%;
+    -webkit-animation: up-down 3s 0.6s linear infinite;
+    animation: up-down 3s 0.6s linear infinite;
   }
 
   & .logo_12 {
     top: 26.3%;
     left: 42.3%;
+    -webkit-animation: up-down 3s 0.2s linear infinite;
+    animation: up-down 3s 0.2s linear infinite;
 
     & span {
       width: 105px;
@@ -124,6 +144,8 @@
   & .logo_13 {
     top: 47.4%;
     left: 44.1%;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
 
     & span {
       width: 85px;
@@ -133,6 +155,8 @@
   & .logo_14 {
     top: 75.2%;
     left: 42.8%;
+    -webkit-animation: up-down 3s 0.1s linear infinite;
+    animation: up-down 3s 0.1s linear infinite;
 
     & span {
       width: 85px;
@@ -142,6 +166,8 @@
   & .logo_15 {
     top: 19%;
     left: 49%;
+    -webkit-animation: up-down 3s 0.7s linear infinite;
+    animation: up-down 3s 0.7s linear infinite;
 
     & span {
       width: 140px;
@@ -151,11 +177,15 @@
   & .logo_16 {
     top: 30.8%;
     left: 59.1%;
+    -webkit-animation: up-down 3s 0.5s linear infinite;
+    animation: up-down 3s 0.5s linear infinite;
   }
 
   & .logo_17 {
     top: 60.7%;
     left: 57.5%;
+    -webkit-animation: up-down 3s 0.3s linear infinite;
+    animation: up-down 3s 0.3s linear infinite;
 
     & span {
       width: 85px;
@@ -165,6 +195,8 @@
   & .logo_18 {
     top: 72.9%;
     left: 63.8%;
+    -webkit-animation: up-down 3s 0s linear infinite;
+    animation: up-down 3s 0s linear infinite;
 
     & span {
       width: 105px;
@@ -174,11 +206,15 @@
   & .logo_19 {
     top: 72.9%;
     left: 69.7%;
+    -webkit-animation: up-down 3s 0.7s linear infinite;
+    animation: up-down 3s 0.7s linear infinite;
   }
 
   & .logo_20 {
     top: 36.8%;
     left: 75.9%;
+    -webkit-animation: up-down 3s 0.3s linear infinite;
+    animation: up-down 3s 0.3s linear infinite;
 
     & span {
       width: 85px;
@@ -188,11 +224,15 @@
   & .logo_21 {
     top: 51.9%;
     left: 74.7%;
+    -webkit-animation: up-down 3s 0.5s linear infinite;
+    animation: up-down 3s 0.5s linear infinite;
   }
 
   & .logo_22 {
     top: 59.8%;
     left: 82.3%;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
 
     & span {
       width: 85px;
@@ -202,6 +242,8 @@
   & .logo_23 {
     top: 37%;
     left: 89.2%;
+    -webkit-animation: up-down 3s 0.7s linear infinite;
+    animation: up-down 3s 0.7s linear infinite;
 
     & span {
       width: 105px;
@@ -211,6 +253,8 @@
   & .logo_24 {
     top: 51.8%;
     left: 90.1%;
+    -webkit-animation: up-down 3s 0.4s linear infinite;
+    animation: up-down 3s 0.4s linear infinite;
   }
 }
 
@@ -218,8 +262,9 @@
   @apply fixed bg-black bg-opacity-30 w-full h-full;
   @apply opacity-0 hidden;
 }
+
 .logo_show {
-  @apply fixed bg-black bg-opacity-30 w-full h-full flex items-center justify-center;
+  @apply fixed bg-white bg-opacity-30 w-full h-full flex items-center justify-center;
   @apply opacity-0 hidden;
   @apply transition-all duration-300;
   & .item {
@@ -227,6 +272,7 @@
     & img {
       @apply w-3/4 mb-12;
     }
+
     & h1 {
       @apply text-black text-2xl bg-white text-center rounded-3xl border border-solid border-red-400;
       width: 89%;

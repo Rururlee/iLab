@@ -67,8 +67,8 @@
 .index .logo_2 {
   top: 27.9%;
   left: 21.15%;
-  -webkit-animation: up-down2 3s linear infinite;
-  animation: up-down2 3s linear infinite
+  -webkit-animation: up-down 3s linear infinite;
+  animation: up-down 3s linear infinite
 }
 
 .index .logo_2 span {
@@ -78,31 +78,43 @@
 .index .logo_3 {
   top: 22%;
   left: 26.95%;
+  -webkit-animation: up-down 3s 0.6s linear infinite;
+  animation: up-down 3s 0.6s linear infinite;
 }
 
 .index .logo_4 {
   top: 33.3%;
   left: 26.1%;
+  -webkit-animation: up-down 3s 0.4s linear infinite;
+  animation: up-down 3s 0.4s linear infinite;
 }
 
 .index .logo_5 {
   top: 74%;
   left: 25.1%;
+  -webkit-animation: up-down 3s linear infinite;
+  animation: up-down 3s linear infinite;
 }
 
 .index .logo_6 {
   top: 69.8%;
   left: 29.15%;
+  -webkit-animation: up-down 3s 0.5s linear infinite;
+  animation: up-down 3s 0.5s linear infinite;
 }
 
 .index .logo_7 {
   top: 73.8%;
   left: 32.8%;
+  -webkit-animation: up-down 3s 0.5s linear infinite;
+  animation: up-down 3s 0.5s linear infinite;
 }
 
 .index .logo_8 {
   top: 21.4%;
-  left: 36.9%
+  left: 36.9%;
+  -webkit-animation: up-down 3s linear infinite;
+  animation: up-down 3s linear infinite
 }
 
 .index .logo_8 span {
@@ -111,7 +123,9 @@
 
 .index .logo_9 {
   top: 32%;
-  left: 37%
+  left: 37%;
+  -webkit-animation: up-down 3s 0.5s linear infinite;
+  animation: up-down 3s 0.5s linear infinite
 }
 
 .index .logo_9 span {
@@ -120,7 +134,9 @@
 
 .index .logo_10 {
   top: 79.2%;
-  left: 38.4%
+  left: 38.4%;
+  -webkit-animation: up-down 3s 0.4s linear infinite;
+  animation: up-down 3s 0.4s linear infinite
 }
 
 .index .logo_10 span {
@@ -130,11 +146,15 @@
 .index .logo_11 {
   top: 62.4%;
   left: 40.2%;
+  -webkit-animation: up-down 3s 0.6s linear infinite;
+  animation: up-down 3s 0.6s linear infinite;
 }
 
 .index .logo_12 {
   top: 26.3%;
-  left: 42.3%
+  left: 42.3%;
+  -webkit-animation: up-down 3s 0.2s linear infinite;
+  animation: up-down 3s 0.2s linear infinite
 }
 
 .index .logo_12 span {
@@ -143,7 +163,9 @@
 
 .index .logo_13 {
   top: 47.4%;
-  left: 44.1%
+  left: 44.1%;
+  -webkit-animation: up-down 3s linear infinite;
+  animation: up-down 3s linear infinite
 }
 
 .index .logo_13 span {
@@ -152,7 +174,9 @@
 
 .index .logo_14 {
   top: 75.2%;
-  left: 42.8%
+  left: 42.8%;
+  -webkit-animation: up-down 3s 0.1s linear infinite;
+  animation: up-down 3s 0.1s linear infinite
 }
 
 .index .logo_14 span {
@@ -161,7 +185,9 @@
 
 .index .logo_15 {
   top: 19%;
-  left: 49%
+  left: 49%;
+  -webkit-animation: up-down 3s 0.7s linear infinite;
+  animation: up-down 3s 0.7s linear infinite
 }
 
 .index .logo_15 span {
@@ -171,11 +197,15 @@
 .index .logo_16 {
   top: 30.8%;
   left: 59.1%;
+  -webkit-animation: up-down 3s 0.5s linear infinite;
+  animation: up-down 3s 0.5s linear infinite;
 }
 
 .index .logo_17 {
   top: 60.7%;
-  left: 57.5%
+  left: 57.5%;
+  -webkit-animation: up-down 3s 0.3s linear infinite;
+  animation: up-down 3s 0.3s linear infinite
 }
 
 .index .logo_17 span {
@@ -184,7 +214,9 @@
 
 .index .logo_18 {
   top: 72.9%;
-  left: 63.8%
+  left: 63.8%;
+  -webkit-animation: up-down 3s 0s linear infinite;
+  animation: up-down 3s 0s linear infinite
 }
 
 .index .logo_18 span {
@@ -194,11 +226,15 @@
 .index .logo_19 {
   top: 72.9%;
   left: 69.7%;
+  -webkit-animation: up-down 3s 0.7s linear infinite;
+  animation: up-down 3s 0.7s linear infinite;
 }
 
 .index .logo_20 {
   top: 36.8%;
-  left: 75.9%
+  left: 75.9%;
+  -webkit-animation: up-down 3s 0.3s linear infinite;
+  animation: up-down 3s 0.3s linear infinite
 }
 
 .index .logo_20 span {
@@ -208,11 +244,15 @@
 .index .logo_21 {
   top: 51.9%;
   left: 74.7%;
+  -webkit-animation: up-down 3s 0.5s linear infinite;
+  animation: up-down 3s 0.5s linear infinite;
 }
 
 .index .logo_22 {
   top: 59.8%;
-  left: 82.3%
+  left: 82.3%;
+  -webkit-animation: up-down 3s linear infinite;
+  animation: up-down 3s linear infinite
 }
 
 .index .logo_22 span {
@@ -221,7 +261,9 @@
 
 .index .logo_23 {
   top: 37%;
-  left: 89.2%
+  left: 89.2%;
+  -webkit-animation: up-down 3s 0.7s linear infinite;
+  animation: up-down 3s 0.7s linear infinite
 }
 
 .index .logo_23 span {
@@ -231,6 +273,8 @@
 .index .logo_24 {
   top: 51.8%;
   left: 90.1%;
+  -webkit-animation: up-down 3s 0.4s linear infinite;
+  animation: up-down 3s 0.4s linear infinite;
 }
 
 .logo_show_bg {
@@ -252,7 +296,7 @@
   align-items: center;
   justify-content: center;
   --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   --tw-bg-opacity: 0.3;
   display: none;
   opacity: 0;
