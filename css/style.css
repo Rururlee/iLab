@@ -310,7 +310,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  margin: 0 5.5rem
 }
 
 .logo_show .item img {
@@ -339,6 +340,30 @@
 @media (min-height: 1000px) {
   .index {
     width: 92.8%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mobile_cover {
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    --tw-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity))
+  }
+
+  .mobile_cover:before {
+    content: '此頁面不適用於行動裝置，請至電腦版網頁瀏覽';
   }
 }
 

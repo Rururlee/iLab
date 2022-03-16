@@ -269,6 +269,8 @@
   @apply transition-all duration-300;
   & .item {
     @apply flex flex-col justify-center items-center;
+    margin: 0 5.5rem;
+
     & img {
       @apply w-3/4 mb-12;
     }
@@ -285,5 +287,14 @@
 @media (min-height: 1000px) {
   .index {
     width: 92.8%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .mobile_cover {
+    @apply fixed bg-black w-full h-full flex items-center justify-center text-white text-xl px-4 text-center;
+    &:before {
+      content: '此頁面不適用於行動裝置，請至電腦版網頁瀏覽';
+    }
   }
 }
