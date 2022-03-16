@@ -25,3 +25,28 @@ button {
     -webkit-tap-highlight-color: transparent;
 }
 
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+@-webkit-keyframes up-down2 {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}

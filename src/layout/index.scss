@@ -8,16 +8,19 @@
   & .logo {
     @apply absolute cursor-pointer flex justify-center items-center;
     width: 2.25%;
+
     &:hover {
       & span {
         @apply flex;
       }
     }
+
     & span {
       @apply absolute bg-black bg-opacity-75 text-white flex justify-center items-center text-sm rounded-lg hidden;
       width: 75px;
       height: 30px;
       top: -45px;
+
       &:after {
         @apply absolute border-solid;
         bottom: -10px;
@@ -33,6 +36,8 @@
   & .logo_1 {
     top: 55.8%;
     left: 8.65%;
+    -webkit-animation: up-down 3s linear infinite;
+    animation: up-down 3s linear infinite;
 
     & span {
       width: 105px;
@@ -42,6 +47,9 @@
   & .logo_2 {
     top: 27.9%;
     left: 21.15%;
+    -webkit-animation: up-down2 3s linear infinite;
+    animation: up-down2 3s linear infinite;
+
     & span {
       width: 75px;
     }
@@ -75,6 +83,7 @@
   & .logo_8 {
     top: 21.4%;
     left: 36.9%;
+
     & span {
       width: 105px;
     }
@@ -83,6 +92,7 @@
   & .logo_9 {
     top: 32%;
     left: 37%;
+
     & span {
       width: 105px;
     }
@@ -91,6 +101,7 @@
   & .logo_10 {
     top: 79.2%;
     left: 38.4%;
+
     & span {
       width: 85px;
     }
@@ -104,6 +115,7 @@
   & .logo_12 {
     top: 26.3%;
     left: 42.3%;
+
     & span {
       width: 105px;
     }
@@ -112,6 +124,7 @@
   & .logo_13 {
     top: 47.4%;
     left: 44.1%;
+
     & span {
       width: 85px;
     }
@@ -120,6 +133,7 @@
   & .logo_14 {
     top: 75.2%;
     left: 42.8%;
+
     & span {
       width: 85px;
     }
@@ -128,6 +142,7 @@
   & .logo_15 {
     top: 19%;
     left: 49%;
+
     & span {
       width: 140px;
     }
@@ -141,6 +156,7 @@
   & .logo_17 {
     top: 60.7%;
     left: 57.5%;
+
     & span {
       width: 85px;
     }
@@ -149,6 +165,7 @@
   & .logo_18 {
     top: 72.9%;
     left: 63.8%;
+
     & span {
       width: 105px;
     }
@@ -162,6 +179,7 @@
   & .logo_20 {
     top: 36.8%;
     left: 75.9%;
+
     & span {
       width: 85px;
     }
@@ -175,6 +193,7 @@
   & .logo_22 {
     top: 59.8%;
     left: 82.3%;
+
     & span {
       width: 85px;
     }
@@ -183,6 +202,7 @@
   & .logo_23 {
     top: 37%;
     left: 89.2%;
+
     & span {
       width: 105px;
     }
@@ -191,5 +211,26 @@
   & .logo_24 {
     top: 51.8%;
     left: 90.1%;
+  }
+}
+
+.logo_show_bg {
+  @apply fixed bg-black bg-opacity-30 w-full h-full;
+  @apply opacity-0 hidden;
+}
+.logo_show {
+  @apply fixed bg-black bg-opacity-30 w-full h-full flex items-center justify-center;
+  @apply opacity-0 hidden;
+  @apply transition-all duration-300;
+  & .item {
+    @apply flex flex-col justify-center items-center;
+    & img {
+      @apply w-3/4 mb-12;
+    }
+    & h1 {
+      @apply text-black text-2xl bg-white text-center rounded-3xl border border-solid border-red-400;
+      width: 89%;
+      height: 5rem;
+    }
   }
 }
