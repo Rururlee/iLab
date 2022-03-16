@@ -1,0 +1,13 @@
+footer.footer {
+    @apply w-full bg-white;
+    padding: 6vw 0;
+    & .item {
+        @apply w-3/4 m-auto flex items-center font-medium;
+        font-size: 1.4vw;
+        margin-bottom: 0.8vw;
+        & img {
+            width: 1.8vw;
+            margin-right: 0.5vw;
+        }
+    }
+}

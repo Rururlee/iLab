@@ -1,0 +1,211 @@
+main.info_menu {
+  @apply w-full;
+  padding-bottom: 12vw;
+  background: url("../img/main_bg.png") bottom no-repeat;
+  background-size: 100% auto;
+
+  & > .content {
+    @apply w-4/5 mx-auto;
+    & .banner {
+      @apply relative flex justify-center items-center;
+      max-width: 100%;
+
+      & h1.title {
+        @apply w-full absolute text-white m-auto text-center;
+        letter-spacing: 0.1vw;
+        font-size: 1.6vw;
+        bottom: 2vw;
+
+        &:after {
+          @apply absolute bg-white left-0 right-0 mx-auto opacity-50;
+          content: '';
+          top: 2.5vw;
+          width: 15vw;
+          height: 0.1vw;
+        }
+
+        & span {
+          @apply text-white block;
+          margin-top: 0.3vw;
+          font-size: 1.15vw;
+        }
+
+        &.member {
+          text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.4);
+
+          &:after {
+            box-shadow: 0.1vw 0.1vw 0.2vw 0.1vw rgba(0, 0, 0, 0.1);
+          }
+        }
+
+        &.dark_title{
+          @apply text-gray-270;
+
+          & span {
+            @apply text-gray-400;
+          }
+
+          &:after {
+            @apply bg-gray-400;
+          }
+        }
+
+
+        &.shop {
+          @apply text-white;
+
+          &:after {
+            @apply bg-white;
+          }
+
+          & span {
+            @apply text-white;
+          }
+        }
+
+        &.order_list {
+          @apply text-white;
+          text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.7);
+
+          &:after {
+            @apply bg-white;
+            box-shadow: 0.1vw 0.1vw 0.2vw 0.1vw rgba(0, 0, 0, 0.1);
+          }
+
+          & span {
+            @apply text-white;
+            text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.7);
+          }
+        }
+
+        &.wallet_title {
+          & span {
+            @apply text-gray-270;
+          }
+          &:after {
+            width: 17vw;
+          }
+        }
+
+        &.admin {
+          text-shadow: 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.7);
+        }
+
+
+      }
+    }
+
+    & > .list {
+      @apply flex justify-between items-center;
+      margin-bottom: 5vw;
+
+      & .item {
+        @apply bg-white flex flex-col;
+        box-shadow: 0 0 0.2vw 0.1vw rgba(0, 0, 0, 0.1);
+        padding: 2.5vw;
+        border-radius: 0.7vw;
+
+        & .title {
+          @apply flex items-center;
+
+          & h1 {
+            @apply text-black;
+            margin-right: 0.7vw;
+            font-size: 1.7vw;
+            letter-spacing: 0.05vw;
+          }
+
+          & h2 {
+            @apply text-gray-400;
+            font-size: 1.3vw;
+          }
+        }
+
+        & > img {
+          @apply mx-auto;
+          margin-top: 1.5vw;
+          width: 18vw;
+        }
+      }
+
+      & .register {
+        width: 55.5%;
+      }
+
+      & .upgrade {
+        width: 40.5%;
+      }
+
+      & .profile {
+        width: 45%;
+
+        & img {
+          width: 16vw;
+        }
+      }
+
+      & .organization {
+        width: 51%;
+
+        & img {
+          width: 16vw;
+        }
+      }
+
+      & .transfer {
+        width: 48%;
+
+        & img {
+          width: 16vw;
+        }
+      }
+
+      & .refund {
+        width: 48%;
+
+        & img {
+          width: 16vw;
+        }
+      }
+
+      & .straight {
+        width: 43%;
+        padding: 2.5vw 2.5vw 4vw;
+
+        & img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+      & .structure {
+        width: 53%;
+        padding: 2.5vw 2.5vw 4vw;
+
+        & img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+      & .online {
+        width: 43.5%;
+
+        & img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+      & .point {
+        width: 52.5%;
+
+        & img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+    }
+  }
+}

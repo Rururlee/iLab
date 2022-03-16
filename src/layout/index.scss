@@ -1,0 +1,195 @@
+.index {
+  @apply relative flex justify-center;
+
+  & .bg {
+    @apply h-full;
+  }
+
+  & .logo {
+    @apply absolute cursor-pointer flex justify-center items-center;
+    width: 2.25%;
+    &:hover {
+      & span {
+        @apply flex;
+      }
+    }
+    & span {
+      @apply absolute bg-black bg-opacity-75 text-white flex justify-center items-center text-sm rounded-lg hidden;
+      width: 75px;
+      height: 30px;
+      top: -45px;
+      &:after {
+        @apply absolute border-solid;
+        bottom: -10px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-width: 10px 7.5px 0 7.5px;
+        border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
+      }
+    }
+  }
+
+  & .logo_1 {
+    top: 55.8%;
+    left: 8.65%;
+
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_2 {
+    top: 27.9%;
+    left: 21.15%;
+    & span {
+      width: 75px;
+    }
+  }
+
+  & .logo_3 {
+    top: 22%;
+    left: 26.95%;
+  }
+
+  & .logo_4 {
+    top: 33.3%;
+    left: 26.1%;
+  }
+
+  & .logo_5 {
+    top: 74%;
+    left: 25.1%;
+  }
+
+  & .logo_6 {
+    top: 69.8%;
+    left: 29.15%;
+  }
+
+  & .logo_7 {
+    top: 73.8%;
+    left: 32.8%;
+  }
+
+  & .logo_8 {
+    top: 21.4%;
+    left: 36.9%;
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_9 {
+    top: 32%;
+    left: 37%;
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_10 {
+    top: 79.2%;
+    left: 38.4%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_11 {
+    top: 62.4%;
+    left: 40.2%;
+  }
+
+  & .logo_12 {
+    top: 26.3%;
+    left: 42.3%;
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_13 {
+    top: 47.4%;
+    left: 44.1%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_14 {
+    top: 75.2%;
+    left: 42.8%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_15 {
+    top: 19%;
+    left: 49%;
+    & span {
+      width: 140px;
+    }
+  }
+
+  & .logo_16 {
+    top: 30.8%;
+    left: 59.1%;
+  }
+
+  & .logo_17 {
+    top: 60.7%;
+    left: 57.5%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_18 {
+    top: 72.9%;
+    left: 63.8%;
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_19 {
+    top: 72.9%;
+    left: 69.7%;
+  }
+
+  & .logo_20 {
+    top: 36.8%;
+    left: 75.9%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_21 {
+    top: 51.9%;
+    left: 74.7%;
+  }
+
+  & .logo_22 {
+    top: 59.8%;
+    left: 82.3%;
+    & span {
+      width: 85px;
+    }
+  }
+
+  & .logo_23 {
+    top: 37%;
+    left: 89.2%;
+    & span {
+      width: 105px;
+    }
+  }
+
+  & .logo_24 {
+    top: 51.8%;
+    left: 90.1%;
+  }
+}

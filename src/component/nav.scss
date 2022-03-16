@@ -1,0 +1,110 @@
+nav.nav {
+  @apply bg-orange-200 flex flex-col items-center pb-20 z-10;
+  width: 18.2%;
+  box-shadow: 0.3vw 0 0.3vw 0.05vw rgba(0, 0, 0, 0.1);
+
+  & .logo {
+    @apply flex flex-col items-center;
+    margin: 7.5vw auto 6.5vw;
+
+    & img {
+      width: 6.5vw;
+    }
+
+    & h1 {
+      @apply text-white;
+      line-height: 1.7vw;
+      font-size: 1.5vw;
+      margin-top: 1vw;
+
+      & span {
+        @apply block;
+      }
+    }
+  }
+
+  & .navBar {
+    @apply w-full;
+
+    & a {
+      @apply relative text-white w-full flex items-center;
+      line-height: 1.3vw;
+      margin-bottom: 0.2vw;
+
+      & .bg {
+        @apply w-full;
+        padding: 1vw 0 0.8vw;
+        margin: 0 2.3vw 0 1.8vw;
+        border-radius: 1.1vw;
+      }
+
+      & img {
+        width: 1.6vw;
+        margin-bottom: 1vw;
+        margin-right: 1.3vw;
+      }
+
+      & .word {
+        margin-left: 4.5vw;
+        margin-top: 0.2vw;
+
+        & .tw {
+          @apply block;
+          letter-spacing: 0.05vw;
+          font-size: 1.5vw;
+        }
+
+        & .en {
+          @apply block text-orange-100;
+          font-size: 1vw;
+          margin-left: 0.1vw;
+        }
+      }
+
+      &.nav_active {
+        @apply text-orange-200;
+        & .bg {
+
+        }
+
+        &:after {
+          @apply absolute right-0 bg-white rounded-l-full;
+          content: '';
+          width: 1.2vw;
+          height: 2.4vw;
+        }
+
+        & img {
+          @apply text-orange-200;
+
+        }
+
+        & .word {
+          & .tw {
+
+          }
+
+          & .en {
+
+          }
+        }
+      }
+    }
+  }
+
+  & .home {
+    width: 6vw;
+    margin-top: 5vw;
+  }
+}
+
+@for $i from 1 to 10 {
+  nav.nav .navBar a:nth-child($i) .bg {
+    background: url("../img/menu_icon_$(i).png") 1.6vw 0.95vw no-repeat;
+    background-size: 1.7vw;
+  }
+  nav.nav .navBar a.nav_active:nth-child($i) .bg {
+    background: url("../img/menu_icon_$(i)_active.png") 1.6vw 0.95vw no-repeat,#ffffff;
+    background-size: 1.7vw;
+  }
+}

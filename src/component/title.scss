@@ -1,0 +1,17 @@
+section.main_title {
+  @apply relative bg-green-100 text-white;
+  letter-spacing: 0.2vw;
+  font-size: 2.2vw;
+  padding: 1.5vw 4vw;
+
+  & span {
+    padding: 0 0.5vw;
+  }
+
+  & > .cart {
+    @apply absolute;
+    top: 0.2vw;
+    right: 8vw;
+    width: 5.7vw;
+  }
+}

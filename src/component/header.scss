@@ -1,0 +1,146 @@
+header.header {
+    @apply w-full relative z-10;
+    height: 13.9vw;
+    background: url("../img/header_bg.jpg") no-repeat;
+    background-size: 100% auto;
+    & .searchBar {
+        @apply absolute flex;
+        top: 6.5vw;
+        left: 8.5vw;
+        & .search_input {
+            @apply bg-white leading-tight appearance-none;
+            @apply border-solid border border-white;
+            width: 33vw;
+            height: 3.2vw;
+            padding: 0 1.2vw;
+            border-radius: 0.5vw;
+            box-shadow: 0 0 0.2vw 0.1vw rgba(0, 0, 0, 0.1);
+            font-size: 1.1vw;
+
+            &:focus {
+                @apply outline-none;
+                &:placeholder {
+                    color: transparent;
+                }
+            }
+
+            &:placeholder {
+                letter-spacing: 0.3vw;
+            }
+        }
+        & .search_btn {
+            @apply absolute top-0 bottom-0 m-auto;
+            right: 1.3vw;
+            width: 2.5vw;
+            height: 2.5vw;
+            background: url("../img/icon_search_green.png") no-repeat;
+            background-size: 100% auto;
+        }
+    }
+    & .member {
+        @apply absolute;
+        top: 3.5vw;
+        right: 5vw;
+        width: 7vw;
+
+        & > .avatar {
+            @apply absolute right-0 cursor-pointer transition-all duration-100;
+            width: 7vw;
+            height: 7vw;
+        }
+        & .detail {
+            @apply hidden opacity-0;
+            & > .avatar {
+                @apply relative;
+                padding-top: 0.6vw;
+                padding-left: 1.7vw;
+                height: 8.7vw;
+                background: url("../img/member_info_bg_01.png") no-repeat;
+                background-size: 100% auto;
+                & img {
+                    width: 7vw;
+                    height: 7vw;
+                }
+                & .name {
+                    @apply absolute text-white;
+                    font-size: 1.6vw;
+                    right: 2vw;
+                    top: 3.7vw;
+                }
+            }
+            & .info {
+                @apply flex flex-col w-full;
+                background: url("../img/member_info_bg_02.png") repeat-y;
+                background-size: 100% auto;
+                padding: 0.7vw 2vw 0;
+                & h1 {
+                    @apply flex justify-center items-center text-orange-200;
+                    font-size: 1.4vw;
+                    margin-bottom: 0.7vw;
+                    & img {
+                        width: 2.7vw;
+                        margin-right: 0.3vw;
+                    }
+                }
+                & h2 {
+                    @apply border border-solid border-black rounded-full;
+                    font-size: 1vw;
+                    margin-bottom: 1vw;
+                    padding: 0.2vw 1vw;
+                }
+            }
+            & .feature {
+                & button {
+                    height: 2.8vw;
+                }
+                & .item {
+                    background: url("../img/member_info_bg_02_2.png") repeat-y, #efefef;
+                    background-size: 100% auto;
+                    & > button {
+                        @apply relative flex items-center w-full text-left;
+                        font-size: 1vw;
+                        padding-left: 2vw;
+                        & img {
+                            width: 1.8vw;
+                            margin-right: 0.4vw;
+                        }
+                        &:after {
+                            @apply absolute left-0 right-0 bottom-0 mx-auto bg-white;
+                            content: "";
+                            width: 98%;
+                            height: 1px;
+                        }
+                    }
+                }
+                & .bottom {
+                    @apply flex items-center;
+                    background: url("../img/member_info_bg_03.png") bottom no-repeat;
+                    background-size: 100% auto;
+                    padding-left: 2vw;
+                    height: 2.8vw;
+                    & button {
+                        @apply flex items-center;
+                        font-size: 1vw;
+                        & img {
+                            width: 1.8vw;
+                            margin-right: 0.4vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.avatar_active {
+            width: auto;
+            & > .avatar {
+                @apply opacity-0;
+            }
+
+            & .detail {
+                @apply block;
+                width: 17.5vw;
+                animation: fadeIn 0.3s ease 0s forwards;
+            }
+        }
+    }
+}

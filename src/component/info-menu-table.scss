@@ -1,0 +1,292 @@
+main.info_menu_table {
+  & > .content {
+    & > .list {
+      & .item {
+        @apply relative;
+        padding: 2vw 2.5vw 2.5vw;
+
+        & .title {
+          margin-bottom: 2vw;
+
+          & h1 {
+            & span.wallet {
+              @apply underline;
+            }
+          }
+
+          &.announcement {
+            margin-bottom: 1vw;
+          }
+
+          &.admin {
+            @apply mb-0;
+          }
+        }
+
+        & .form {
+          @apply flex items-center justify-center;
+          & > img {
+            width: 16vw;
+            margin-right: 2vw;
+
+            &.announcement {
+              width: 14.5vw;
+            }
+          }
+
+          & table.list {
+            @apply w-full h-full border border-solid border-gray-250;
+
+            & tbody tr {
+              height: 3.5vw;
+            }
+
+            & tbody tr td {
+              @apply border border-solid border-gray-250;
+            }
+          }
+
+
+          & table.announcement_list {
+            @apply w-full h-full border border-solid border-gray-250;
+            & tbody {
+              & tr {
+                @apply font-light;
+                &.list_title {
+                  @apply max-w-full font-medium;
+                  & td:nth-child(4) {
+                    @apply text-center;
+                  }
+                }
+
+                & td {
+                  @apply border border-solid border-gray-250;
+                  @apply text-center align-middle text-gray-270;
+                  font-size: 1.1vw;
+                  padding: 0.3vw 0.5vw;
+
+                  &:nth-child(4) {
+                    @apply text-left;
+                  }
+
+                  & button {
+                    @apply flex m-auto;
+                    & .file {
+                      width: 1.5vw;
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          & .password_modify {
+            @apply flex flex-col;
+            width: 70%;
+            padding: 0 1vw;
+
+            & .enter_password {
+              @apply relative flex items-center;
+              margin-bottom: 3.5vw;
+
+              & h1 {
+                @apply text-black text-right;
+                width: 6.5vw;
+                font-size: 1.3vw;
+                margin-right: 1.7vw;
+              }
+
+              & span.notice {
+                @apply absolute text-green-200;
+                font-size: 0.8vw;
+                left: 9vw;
+                bottom: -1.7vw;
+              }
+
+              & .input_item {
+                @apply relative;
+                & input.default-input {
+                  @apply border-none bg-gray-150;
+                  width: 31vw;
+                  border-radius: 0.3vw;
+                  height: 3.2vw;
+                }
+
+                & img {
+                  @apply absolute top-0 bottom-0 my-auto cursor-pointer;
+                  width: 2.7vw;
+                  right: 6vw;
+                }
+              }
+            }
+          }
+        }
+
+        & .more {
+          @apply absolute;
+          @apply bg-orange-200 text-white flex justify-center;
+          border-radius: 2vw;
+          padding: 0.3vw 0 0.2vw;
+          font-size: 0.9vw;
+          width: 8vw;
+          top: 2.8vw;
+          right: 2.5vw;
+        }
+
+        & .modify {
+          @apply absolute;
+          @apply bg-orange-200 text-white flex justify-center;
+          border-radius: 2vw;
+          padding: 0.3vw 0 0.2vw;
+          font-size: 0.9vw;
+          width: 8vw;
+          bottom: 2.3vw;
+          right: 5vw;
+        }
+      }
+
+      & .info_full {
+        @apply w-full;
+        & > img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+      & .info_half {
+        width: 30.7vw;
+
+        & > img {
+          margin-top: 1vw;
+          width: 16vw;
+        }
+      }
+
+      &.wallet_record {
+        margin-bottom: 7.5vw;
+      }
+
+      &.announcement {
+        margin-bottom: 2vw;
+
+        & .item {
+          padding-bottom: 4vw;
+        }
+      }
+    }
+  }
+
+  & .other_info {
+    @apply w-full flex justify-between;
+    margin-bottom: 2vw;
+
+    & > .content {
+      @apply bg-white flex flex-col;
+      box-shadow: 0 0 0.2vw 0.1vw rgba(0, 0, 0, 0.1);
+      padding: 1.7vw 2.5vw 2.5vw;
+      border-radius: 0.7vw;
+
+      & .title {
+        @apply flex items-center;
+        margin-bottom: 0.4vw;
+
+        & h1 {
+          @apply text-black;
+          margin-right: 0.7vw;
+          font-size: 1.7vw;
+          letter-spacing: 0.05vw;
+        }
+      }
+
+      & .item {
+        @apply flex justify-center items-start;
+        & > img {
+          width: 13vw;
+          margin-right: 4vw;
+        }
+
+        & a {
+          width: 13vw;
+          margin-right: 4vw;
+        }
+
+        & .qrcode {
+          @apply flex flex-col items-center;
+          & img {
+            width: 10vw;
+            margin-top: 0.5vw;
+            margin-bottom: 1vw;
+          }
+
+          & h1 {
+            @apply text-blue-300 font-light;
+            font-size: 1.1vw;
+          }
+        }
+
+        & .list {
+          @apply w-full;
+          margin-top: -3.5vw;
+
+          & h1 {
+            @apply w-full border-b border-solid border-gray-400 font-light;
+            @apply flex items-center;
+            padding: 0 0.5vw;
+            height: 3.5vw;
+            font-size: 1.1vw;
+          }
+        }
+      }
+    }
+
+    & .contact {
+      width: 61.5%;
+    }
+
+    & .official {
+      width: 35.5%;
+    }
+
+    & .setting {
+      width: 35.5%;
+
+      & .item {
+        & > img {
+          @apply mr-0;
+        }
+      }
+    }
+
+    & .setting {
+      width: 35.5%;
+
+      & .item {
+        & > img {
+          @apply mr-0;
+        }
+      }
+    }
+
+    & .permission_list {
+      @apply relative;
+      width: 61.5%;
+
+      & .item {
+        & > img {
+          margin-right: 1.5vw;
+        }
+      }
+
+      & .more {
+        @apply absolute;
+        @apply bg-orange-200 text-white flex justify-center;
+        border-radius: 2vw;
+        padding: 0.3vw 0 0.2vw;
+        font-size: 0.9vw;
+        width: 8vw;
+        bottom: 1.5vw;
+        right: 5vw;
+      }
+    }
+  }
+}

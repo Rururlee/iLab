@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap');
+@import "./layout/index.scss";
+
+
+html {
+    font-family: "Helvetica", "Noto Sans TC", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "spHelvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+body {
+    @apply flex flex-col w-full h-full bg-gray-100 text-gray-300;
+    font-family: "Helvetica", "Noto Sans TC", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "spHelvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.wrapper {
+    @apply flex justify-center w-full h-screen;
+    background: #fefeff;
+    background: -moz-linear-gradient(left, #fefeff 0%, #f0f1fe 100%);
+    background: -webkit-linear-gradient(left, #fefeff 0%, #f0f1fe 100%);
+    background: linear-gradient(to right, #fefeff 0%, #f0f1fe 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefeff', endColorstr='#f0f1fe', GradientType=1);
+}
+
+button {
+    @apply outline-none;
+    -webkit-tap-highlight-color: transparent;
+}
+
