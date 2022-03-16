@@ -274,9 +274,16 @@
     }
 
     & h1 {
+      @apply opacity-0;
       @apply text-black text-2xl bg-white text-center rounded-3xl border border-solid border-red-400;
       width: 89%;
       height: 5rem;
     }
+  }
+}
+
+@media (min-height: 1000px) {
+  .index {
+    width: 92.8%;
   }
 }
