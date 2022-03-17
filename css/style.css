@@ -3,7 +3,8 @@
 .index {
   position: relative;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  max-width: 1387px
 }
 
 .index .cover {

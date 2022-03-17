@@ -1,5 +1,6 @@
 .index {
   @apply relative flex justify-center;
+  max-width: 1387px;
 
   & .cover {
     @apply absolute w-screen h-screen;
